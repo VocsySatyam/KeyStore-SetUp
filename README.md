@@ -66,3 +66,9 @@ android {
            signingConfig signingConfigs.release
        }
 ```
+
+# How to get `SHA1` and `SHA256` from your KeyStore
+
++ Step : 1  Open **cmd** write `cd` then paste your JDK Path For Example `C:\Program Files\Java\jdk-11.0.14`
++ Step : 2 Now Paste  **keytool -list -v -keystore "[Here Set Your Key Store Path] Example :- F:\KeyStore\Firebase\firebase.jks" -alias [AliasName] -storepass [Password] -keypass [KeyPassword]**
++ Step : 3 Press Enter.
