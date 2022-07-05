@@ -76,3 +76,4 @@ android {
 # How to Get Your Pc `SHA1` And `SHA256`
 + Step : 1 InSide `[YourProject]` -> `android` -> `gradlew` Right Click On `gradlew` file now open in terminal
 + Step : 2 Now Paste `./gradlew signingReport` 
++ Step : 3 Press Enter.
