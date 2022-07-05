@@ -72,3 +72,7 @@ android {
 + Step : 1  Open **cmd** write `cd` then paste your JDK Path For Example `C:\Program Files\Java\jdk-11.0.14`
 + Step : 2 Now Paste  **keytool -list -v -keystore "[Here Set Your Key Store Path] Example :- F:\KeyStore\Firebase\firebase.jks" -alias [AliasName] -storepass [Password] -keypass [KeyPassword]**
 + Step : 3 Press Enter.
+
+# How to Get Your Pc `SHA1` And `SHA256`
++ Step : 1 InSide `[YourProject]` -> `android` -> `gradlew` Right Click On `gradlew` file now open in terminal
++ Step : 2 Now Paste `./gradlew signingReport` 
